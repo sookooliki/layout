@@ -1,0 +1,11 @@
+<div class="my-panel border-r" style="flex: 1 1 auto;">
+    <div class="container-fluid">
+        <div class="row" style="margin-bottom: 8px;" ng-repeat="tab in vm.tabs">
+            <button class="btn btn-default btn-lg" ng-click="vm.selectTab(tab)" title="{{tab.title}}" ng-class="tab.isSelected?'active':''">
+                <span class="{{tab.icon}}"></span>
+            </button>
+        </div>
+    </div>
+</div>
+<div id="tabs-container" class="my-panel border-r" style="flex: 1 1 auto; padding: 0;"></div>
+<div id="content-container" class="my-panel" style="flex: 1 1 100%; overflow: auto;"></div>

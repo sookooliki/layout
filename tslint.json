@@ -1,0 +1,67 @@
+{
+    "rules": {
+        "class-name": true,
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "member-ordering": [
+            true, {
+                "order": [
+                    "public-static-field",
+                    "protected-static-field",
+                    "private-static-field",
+                    "public-instance-field",
+                    "protected-instance-field",
+                    "private-instance-field",
+                    "constructor",
+                    "public-static-method",
+                    "protected-static-method",
+                    "private-static-method",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
+                ]
+            }
+        ],
+        "only-arrow-functions": [
+            true
+        ],
+        "array-type": [
+            true,
+            "array"
+        ],
+        "interface-name": [
+            true,
+            "always-prefix"
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "typedef": [
+            true,
+            "call-signature",
+            "parameter"
+        ],
+        "curly": true,
+        "no-duplicate-variable": true,
+        "no-unused-new": true,
+        "no-unused-variable": [
+            true
+        ],
+        "no-unused-expression": true,
+        "no-use-before-declare": true,
+        "no-trailing-whitespace": true,
+        "arrow-parens": true,
+        "new-parens": true,
+        "no-consecutive-blank-lines": [
+            true,
+            1
+        ],
+        "one-line": [true, "check-catch", "check-else", "check-finally", "check-open-brace", "check-whitespace"]
+    }
+}
